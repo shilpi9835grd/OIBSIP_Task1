@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+#header
+{
+    width:175rem;
+    height: 40rem;
+    background-color: black;
+}
+ footer{
+    position: absolute;
+    top: 30rem;
+    left: 5rem;
+    width: 20rem;
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.navigation .btnRegister-popup{
+    width: 16rem;
+    height: 6rem;
+    margin: 1rem;
+    margin-left: 0.8rem;
+    background-color: #C1A06C;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 1rem;
+    border: none;
+    transition: .5s;
+}
+.navigation .btnRegister-popup:hover{
+    background: #fff;
+    color: blue;
+}
+.navigation .btnSeeourmenu-popup{
+    width: 16rem;
+    height: 6rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #C1A06C;
+    background: transparent;
+    border: 0.1rem solid #c1a06c;
+    border-radius: 1rem;
+    margin-left: 4rem;
+    position: absolute;
+    z-index: 1;
+    transition: .5s;
+}  
+.navigation .btnSeeourmenu-popup:hover{
+    background: #fff;
+    color: blue;
+}
+#header #p1
+{
+    position: relative;
+    font-size: 2rem;
+    color: rgb(195, 114, 9);
+    top: 8rem;
+    left: 17rem;
+    font-style: italic;
+    word-spacing: 0.2rem;
+}
+#header h2
+{
+    position: relative;
+    font-size: 3rem;
+    color: white;
+    top: 8rem;
+    left: 17rem;    
+}
+#header #p2
+{
+    position: relative;
+    color: whitesmoke;
+    font-size: 2rem;
+    top: 8rem;
+    left: 17rem;
+}
+#header #d2 img{
+    position: absolute;
+    width: 38rem;
+    height: 45rem;
+    top: 10rem;
+    left: 88rem;
+    z-index: 99;
+}
+.Section2 .container{
+    position: relative;
+    display: grid;
+    background-color: white;
+    height: 14rem;
+    width: 175rem;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 0.8rem;
+    column-gap: 0.8rem;
+}
+.Section2 .items{
+    position: relative;  
+    background-color: white; 
+}
+
+.container .items h1{
+    position: relative;
+    color: orange;
+    font-size: 2rem;
+    left: 3rem;
+    top: 2rem;
+}
+.container .items p{
+    position: relative;
+    font-size: 1.5rem;
+    left: 1rem;
+    top: 0.2rem;
+}
+.Section3{
+    background-image: url('C7.jpg');
+    min-height: 70rem;
+    width: 175rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Section3 table{
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    margin-left: 30rem;
+    margin-top: 10rem;
+}
+.Section3 table, th , td{
+    width: 10rem;
+    border: 0.1rem solid #f6f6f6;
+    border-collapse: separate;
+    text-align: left;
+    font-size: 1.5rem;
+    table-layout: fixed;
+    background: rgb(209, 113, 45);
+    opacity: 0.5;
+    color: white;
+
+}
+.Section3 th, td{
+    padding: 0.5rem;
+    opacity: 0.9;
+    border-spacing: 2rem;
+}
+.Section3 th{
+    text-align: center;
+}
+.Section3 #D{
+    position: absolute;
+    width: 175rem;
+    height: 10rem;
+    z-index: 99;
+}
+#S #D h1{
+    position: relative;
+    word-spacing: 1rem;
+    font-size: 5rem;
+    left: 50rem;
+    top: 5rem;
+    color: rgb(233, 91, 40)
+}
+.Section3 #S{
+    position: relative;
+    display: grid;
+    height: 10rem;
+    width: 175rem;
+}
+.Section4 .four{
+    display: grid;
+    background: rgb(219, 147, 95);
+    height: 15rem;
+    width: 174rem;
+}
+.four h1{
+    position: relative;
+    font-size: 3rem;
+    left: 30rem;
+    top: 4rem;
+    font-style: italic;
+    word-spacing: 1rem;
+}
+.Section5 .big{
+    padding: 1rem;
+    max-width: 100rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem 
+}
+.big div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Section5 .big .small{
+    border: 0.3rem;
+    height: 30rem;
+}
+.Section5 h2{
+    position: relative;
+    font-size: 2rem;
+    left: 60rem;
+    font-style: italic;
+    word-spacing: 1rem;
+}
+.K{
+    padding: 10px;
+    /*max-width: 1000px;*/
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-gap: 2rem;
+}
+.K .l{
+    border: 0.3rem;
+    height: 20rem;
+}.l1 {
+    border: 0.3rem;
+    background-color: black;
+    height: 20rem;
+}
+.l  p{
+    position: relative;
+    font-size: 1.5rem;
+    top: 1rem;
+    left: 2rem;
+    right: 1rem;
+}
+.l h2{
+    position: relative;
+    font-size: 3rem;
+    left: 2rem;
+    top: 2rem;
+}
+.l1 p{
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 2.5rem 1rem 2rem;
+}
+.Section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C10.jpg');
+    min-height: 35rem;
+    width: 175rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper {
+    position: relative;
+    width: 90rem;
+    height: 20rem;
+    background-color:#000000;
+    opacity: 70%;
+    border: 0.1rem solid #f6f6f6;
+    border-radius: 0.5rem;
+}
+.wrapper .navigation{
+    padding: 1rem 1rem 3rem 35rem;
+}
+.navigation .btnFAT-popup{
+    width: 20rem;
+    height: 5rem;
+    background-color: #C1A06C;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    transition: .5s;
+}
+.navigation .btnFAT-popup:hover{
+    background: #fff;
+    color: blue;
+}
+.wrapper .F h2{
+   position: relative;
+   font-size: 3rem;
+   color: white;
+   word-spacing: 0.5rem;
+   left: 8rem;
+   top: 1rem;
+}
+@media(max-width:998px) {
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 38%;
+    }
+}
+@media(max-width: 468px) {
+    html{
+        font-size: 20%;
+    }
+}
+@media(min-width: 769px) and (max-width: 1023px) {
+    html{
+        font-size: 35%;
+    }
+}
